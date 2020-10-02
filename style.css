@@ -1,0 +1,79 @@
+h4 {
+    text-align: center;
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .logo {
+    color: rgb(red, green, blue);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  }
+  .nav-links a {
+    color: rgb(red, green, blue);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .burger div {
+    width: 25px;
+    height: 5px; 
+    color: rgb(red, green, blue);
+    margin: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  body {
+    border: blue solid 5px;
+    background-image: linear-gradient(to bottom right, white, rgb(255, 238, 238));
+    margin: 3px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Calibri';
+  }
+  
+  figure {
+    text-align: left;
+  }
+  
+  mark {
+    background-color: rgba(0, 0, 255, .45);
+  }
+  
+  p {
+    font-family: "Calibri";
+  }
+  
+  a:link {
+   color: rgb(49, 0, 128)
+  }
+  
+  a:visited {
+   color: rgb(49, 0, 128) 
+  }
